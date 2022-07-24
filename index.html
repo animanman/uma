@@ -21,6 +21,7 @@
     <header>
         
     </header>
+<nav class="sidenav nav_left"><a class="closebtn toggle_sidenav">×</a><ul id="nav_urls_app"><li v-for="(link_URL, name) in nav_links"><a v-bind:href="`${websites}${link_URL}`">{{name}}</a></li></ul></nav>
     <main>
     <p>テスト</p>
 <div id="app">
@@ -37,6 +38,28 @@ let app =  new Vue({
         message: "Hello!!! Vue.js!!!"
       }
     })
+</script>
+
+<script>
+let app = new Vue({
+el: '#nav_urls_app',
+data: {
+websites:[
+nano:"", 
+forest:"https://plus.fm-p.jp/u",
+animanch:"https://bbs.animanch.com/board"
+]
+nav_links:[
+{title:"ナノtop",link_URL_data:{URL_site:nano,link_URL:"/hexhpia3k2/"}},
+{title:"フォレストtop",link_URL_data:{URL_site:forest,link_URL:"/hexhpia3k2/"}},
+{title:"プロフィール",link_URL_data:{URL_site:forest,link_URL:"/hexhpia3k2/profile"}},
+{title:"制作物更新日記",link_URL_data:{URL_site:forest,link_URL:"/hexhpia3k2/diary?sid=16706"}},
+{title:"制作物一覧",link_URL_data:{URL_site:nano,link_URL:"/hexhpia3k2/page/2/"}},
+{title:"コメント返信",link_URL_data:{URL_site:forest,link_URL:"/hexhpia3k2/reply"}},
+{title:"ダイレクトメッセージ",link_URL_data:{URL_site:forest,link_URL:"/hexhpia3k2/dm"}},
+{title:"あにまんプログラミング始めたい部",link_URL_data:{URL_site:animanch,link_URL:"/799443/"}}
+]}
+});  
 </script>
 
   </body>
