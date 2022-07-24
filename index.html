@@ -46,43 +46,28 @@
       
     </fooder>
 <script>
-let app =  new Vue({
-      el: "#app",
-      data: {
-        message: "Hello!!! Vue.js!!!"
-      }
+let app0 = new Vue({
+el:"#sample",
+data:{
+list:[{item:"hoge"},{item : "fuga"},{item : "hogehoge"}]
+}
 })
 
-let app0 =  new Vue({
-      el:"#sample",
-      data: {
-        list : [
-          {item : "hoge"},
-          {item : "fuga"},
-          {item : "hogehoge"}
-        ]
-      }
-})
-
-let app1 =  new Vue({
-      el: "#nav_urls_app",
-      data: {
-        websites:[
-          nano:"/", 
-          forest:"https://plus.fm-p.jp/u/",
-          animanch:"https://bbs.animanch.com/board/"
-        ],
-        nav_links:[
-          {title:"ナノtop",link_URL_data:{URL_site:nano,link_URL:"hexhpia3k2/"}},
-          {title:"フォレストtop",link_URL_data:{URL_site:forest,link_URL:"hexhpia3k2/"}},
-          {title:"プロフィール",link_URL_data:{URL_site:forest,link_URL:"hexhpia3k2/profile"}},
-          {title:"制作物更新日記",link_URL_data:{URL_site:forest,link_URL:"hexhpia3k2/diary?sid=16706"}},
-          {title:"制作物一覧",link_URL_data:{URL_site:nano,link_URL:"hexhpia3k2/page/2/"}},
-          {title:"コメント返信",link_URL_data:{URL_site:forest,link_URL:"hexhpia3k2/reply"}},
-          {title:"ダイレクトメッセージ",link_URL_data:{URL_site:forest,link_URL:"hexhpia3k2/dm"}},
-          {title:"あにまんプログラミング始めたい部",link_URL_data:{URL_site:animanch,link_URL:"799443/"}}
-          ]
-      }
+let app1 = new Vue({
+el:"#nav_urls_app",
+data:{
+websites:[nano:"/",forest:"https://plus.fm-p.jp/u/",animanch:"https://bbs.animanch.com/board/"],
+nav_links:[
+{title:"ナノtop",URL_site:nano,link_URL:"hexhpia3k2/"},
+{title:"フォレストtop",URL_site:forest,link_URL:"hexhpia3k2/"},
+{title:"プロフィール",URL_site:forest,link_URL:"hexhpia3k2/profile"},
+{title:"制作物更新日記",URL_site:forest,link_URL:"hexhpia3k2/diary?sid=16706"},
+{title:"制作物一覧",URL_site:nano,link_URL:"hexhpia3k2/page/2/"},
+{title:"コメント返信",URL_site:forest,link_URL:"hexhpia3k2/reply"},
+{title:"ダイレクトメッセージ",URL_site:forest,link_URL:"hexhpia3k2/dm"},
+{title:"あにまんプログラミング始めたい部",URL_site:animanch,link_URL:"799443/"}
+]
+}
 })
 
 </script>
