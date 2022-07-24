@@ -21,7 +21,7 @@
     <header>
         
     </header>
-<nav class="sidenav nav_left"><a class="closebtn toggle_sidenav">×</a><ul id="nav_urls_app"><li v-for="name in nav_links"><a v-bind:href="`${websites}${link_URL}`">{{title}}</a></li></ul></nav>
+<nav class="sidenav nav_left"><a class="closebtn toggle_sidenav">×</a><ul id="nav_urls_app"><li v-for="name in nav_links"><a v-bind:href="`${websites}${link_URL}`">{{ nav_links.title }}</a></li></ul></nav>
     <main>
     <p>テスト</p>
 <div id="app">
@@ -48,7 +48,7 @@ websites:[
 nano:"", 
 forest:"https://plus.fm-p.jp/u",
 animanch:"https://bbs.animanch.com/board"
-]
+],
 nav_links:[
 {title:"ナノtop",link_URL_data:{URL_site:nano,link_URL:"/hexhpia3k2/"}},
 {title:"フォレストtop",link_URL_data:{URL_site:forest,link_URL:"/hexhpia3k2/"}},
