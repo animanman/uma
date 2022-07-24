@@ -32,7 +32,7 @@
     <main>
     <p>テスト</p>
 
-<ul id="sample">
+<ul id="sample01">
 <li v-for="column in list" :key="column.item">
 {{ column.item }}
 </li>
@@ -42,8 +42,8 @@
       
     </fooder>
 <script>
-let app0 = new Vue({
-el:"#sample",
+let app = new Vue({
+el:"#sample01",
 data:{
 list:[{item:"hoge"},{item:"fuga"},{item:"hogehoge"}]
 }
