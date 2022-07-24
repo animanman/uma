@@ -12,7 +12,7 @@
     <meta property="og:image" content="https://animanman.github.io/thumb/a.png" />
     <meta name="twitter:card" content="summary" />
     <title>ウマ</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="https://animanman.github.io/favicon.ico">
@@ -21,14 +21,7 @@
     <header>
         
     </header>
-<nav class="sidenav nav_left">
-<a class="closebtn toggle_sidenav">×</a>
-<ul id="nav_urls_app">
-<li v-for="nav_link in nav_links" :key="nav_link.title">
-<a v-bind:href="`${websites}${link_URL}`">{{ nav_link.title }}</a>
-</li>
-</ul>
-</nav>
+
     <main>
     <p>テスト</p>
 
@@ -41,6 +34,8 @@
     <fooder>
       
     </fooder>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 <script>
 let app = new Vue({
 el:"#sample01",
