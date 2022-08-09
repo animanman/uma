@@ -1,30 +1,29 @@
-,
-        horse: {
-           stallions: [
+horse: {
+     stallions: [
 //サンデー父系10
-           {horsename: 'サンデーサイレンス',
-            id: 700001,
-            parentped: {
-              male: 700002,
-              //female: 3
-             }
-            },
-           {horsename: 'Halo',
-            id: 700002,
-            parentped: {
-              male: 700003,
-              //female: 3
-             }
-            },
-           {horsename: 'Hail to Reason',
-            id: 700003,
-            parentped: {
-              male: 700004,
-              //female: 3
-             }
-            },
-           {horsename: 'Turn-to',
-            id: 700004,
+        {horsename: 'サンデーサイレンス',
+         id: 700001,
+         parentped: {
+           male: 700002,
+         //female: 3
+           }
+        },
+        {horsename: 'Halo',
+         id: 700002,
+         parentped: {
+           male: 700003,
+         //female: 3
+           }
+        },
+        {horsename: 'Hail to Reason',
+         id: 700003,
+         parentped: {
+           male: 700004,
+         //female: 3
+           }
+        },
+        {horsename: 'Turn-to',
+         id: 700004,
             parentped: {
               male: 700005,
               //female: 3
