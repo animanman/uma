@@ -3,7 +3,7 @@ el: '#test',
 data: {
 horse: {
 
-stallions: [
+{gender: stallion,genderlist: [
 
 //サンデー父系10代
 {horsename: 'サンデーサイレンス',
@@ -359,9 +359,9 @@ male: 700046,
 id: 700046
 }
 
-],
+]},
 
-broodmares: [
+{gender: broodmare,genderlist: [
 
 //スペちゃん母系
 {horsename: 'キャンペーンガール',
@@ -440,7 +440,7 @@ female: 300010
 id: 300010
 }
 
-]
+]}
 
 }
 
