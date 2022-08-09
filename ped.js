@@ -1,12 +1,13 @@
 let testapp = new Vue({
 el: '#test',
 data: {
-horse: {
+{Race: horse,
+list: {
 
 {gender: stallion,genderlist: [
 
 //サンデー父系10代
-{horsename: 'サンデーサイレンス',
+{name: 'サンデーサイレンス',
 id: 700001,
 parentped: {
 male: 700002,
@@ -14,7 +15,7 @@ male: 700002,
 }
 },
 
-{horsename: 'Halo',
+{name: 'Halo',
 id: 700002,
 parentped: {
 male: 700003,
@@ -22,7 +23,7 @@ male: 700003,
 }
 },
 
-{horsename: 'Hail to Reason',
+{name: 'Hail to Reason',
 id: 700003,
 parentped: {
 male: 700004,
@@ -30,7 +31,7 @@ male: 700004,
 }
 },
 
-{horsename: 'Turn-to',
+{name: 'Turn-to',
 id: 700004,
 parentped: {
 male: 700005,
@@ -38,7 +39,7 @@ male: 700005,
 }
 },
 
-{horsename: 'Royal Charger',
+{name: 'Royal Charger',
 id: 700005,
 parentped: {
 male: 700006,
@@ -46,7 +47,7 @@ male: 700006,
 }
 },
 
-{horsename: 'Nearco',
+{name: 'Nearco',
 id: 700006,
 parentped: {
 male: 700007,
@@ -54,7 +55,7 @@ male: 700007,
 }
 },
 
-{horsename: 'Pharos',
+{name: 'Pharos',
 id: 700007,
 parentped: {
 male: 700008,
@@ -62,7 +63,7 @@ male: 700008,
 }
 },
 
-{horsename: 'Phalaris',
+{name: 'Phalaris',
 id: 700008,
 parentped: {
 male: 700009,
@@ -70,7 +71,7 @@ male: 700009,
 }
 },
 
-{horsename: 'Polymelus',
+{name: 'Polymelus',
 id: 700009,
 parentped: {
 male: 700010,
@@ -78,12 +79,12 @@ male: 700010,
 }
 },
 
-{horsename: 'Cyllene',
+{name: 'Cyllene',
 id: 700010
 },
 
 //サンデー母父系10
-{horsename: 'Understanding',
+{name: 'Understanding',
 id: 700011,
 parentped: {
 male: 700012,
@@ -91,7 +92,7 @@ male: 700012,
 }
 },
 
-{horsename: 'Promised Land',
+{name: 'Promised Land',
 id: 700012,
 parentped: {
 male: 700013,
@@ -99,7 +100,7 @@ male: 700013,
 }
 },
 
-{horsename: 'Palestinian',
+{name: 'Palestinian',
 id: 700013,
 parentped: {
 male: 700014,
@@ -107,7 +108,7 @@ male: 700014,
 }
 },
 
-{horsename: 'Sun Again',
+{name: 'Sun Again',
 id: 700014,
 parentped: {
 male: 700015,
@@ -115,7 +116,7 @@ male: 700015,
 }
 },
 
-{horsename: 'Sun Teddy',
+{name: 'Sun Teddy',
 id: 700015,
 parentped: {
 male: 700016,
@@ -123,7 +124,7 @@ male: 700016,
 }
 },
 
-{horsename: 'Teddy',
+{name: 'Teddy',
 id: 700016,
 parentped: {
 male: 700017,
@@ -131,7 +132,7 @@ male: 700017,
 }
 },
 
-{horsename: 'Ajax',
+{name: 'Ajax',
 id: 700017,
 parentped: {
 male: 700018,
@@ -139,7 +140,7 @@ male: 700018,
 }
 },
 
-{horsename: 'Flying Fox',
+{name: 'Flying Fox',
 id: 700018,
 parentped: {
 male: 700019,
@@ -147,7 +148,7 @@ male: 700019,
 }
 },
 
-{horsename: 'Orme',
+{name: 'Orme',
 id: 700019,
 parentped: {
 male: 700020,
@@ -155,12 +156,12 @@ male: 700020,
 }
 },
 
-{horsename: 'Ormonde',
+{name: 'Ormonde',
 id: 700020
 },
 
 //サンデー父母父系
-{horsename: 'Cosmic Bomb',
+{name: 'Cosmic Bomb',
 id: 700021,
 parentped: {
 male: 700022,
@@ -168,7 +169,7 @@ male: 700022,
 }
 },
 
-{horsename: 'Pharamond',
+{name: 'Pharamond',
 id: 700022,
 parentped: {
 male: 700008,
@@ -177,7 +178,7 @@ male: 700008,
 },
 
 //サンデー母母父系8
-{horsename: 'Montparnasse',
+{name: 'Montparnasse',
 id: 700023,
 parentped: {
 male: 700024,
@@ -185,7 +186,7 @@ male: 700024,
 }
 },
 
-{horsename: 'Gulf Stream',
+{name: 'Gulf Stream',
 id: 700024,
 parentped: {
 male: 700025,
@@ -193,7 +194,7 @@ male: 700025,
 }
 },
 
-{horsename: 'Hyperion',
+{name: 'Hyperion',
 id: 700025,
 parentped: {
 male: 700026,
@@ -201,7 +202,7 @@ male: 700026,
 }
 },
 
-{horsename: 'Gainsborough',
+{name: 'Gainsborough',
 id: 700026,
 parentped: {
 male: 700027,
@@ -209,7 +210,7 @@ male: 700027,
 }
 },
 
-{horsename: 'Bayardo',
+{name: 'Bayardo',
 id: 700027,
 parentped: {
 male: 700028,
@@ -217,7 +218,7 @@ male: 700028,
 }
 },
 
-{horsename: 'Bay Ronald',
+{name: 'Bay Ronald',
 id: 700028,
 parentped: {
 male: 700029,
@@ -225,7 +226,7 @@ male: 700029,
 }
 },
 
-{horsename: 'Hampton',
+{name: 'Hampton',
 id: 700029,
 parentped: {
 male: 700030,
@@ -233,12 +234,12 @@ male: 700030,
 }
 },
 
-{horsename: 'Lord Clifden',
+{name: 'Lord Clifden',
 id: 700030
 },
 
 //サンデー父父母父系8
-{horsename: 'Blue Swords',
+{name: 'Blue Swords',
 id: 700031,
 parentped: {
 male: 700032,
@@ -246,7 +247,7 @@ male: 700032,
 }
 },
 
-{horsename: 'Blue Larkspur',
+{name: 'Blue Larkspur',
 id: 700032,
 parentped: {
 male: 700033,
@@ -254,7 +255,7 @@ male: 700033,
 }
 },
 
-{horsename: 'Black Servant',
+{name: 'Black Servant',
 id: 700033,
 parentped: {
 male: 700034,
@@ -262,7 +263,7 @@ male: 700034,
 }
 },
 
-{horsename: 'Black Toney',
+{name: 'Black Toney',
 id: 700034,
 parentped: {
 male: 700035,
@@ -270,7 +271,7 @@ male: 700035,
 }
 },
 
-{horsename: 'Peter Pan',
+{name: 'Peter Pan',
 id: 700035,
 parentped: {
 male: 700036,
@@ -278,7 +279,7 @@ male: 700036,
 }
 },
 
-{horsename: 'Commando',
+{name: 'Commando',
 id: 700036,
 parentped: {
 male: 700037,
@@ -286,7 +287,7 @@ male: 700037,
 }
 },
 
-{horsename: 'Domino',
+{name: 'Domino',
 id: 700037,
 parentped: {
 male: 700038,
@@ -294,12 +295,12 @@ male: 700038,
 }
 },
 
-{horsename: 'Himyar',
+{name: 'Himyar',
 id: 700038
 },
 
 //サンデー父母母父系8
-{horsename: 'Mahmoud',
+{name: 'Mahmoud',
 id: 700039,
 parentped: {
 male: 700040,
@@ -307,7 +308,7 @@ male: 700040,
 }
 },
 
-{horsename: 'Blenheim',
+{name: 'Blenheim',
 id: 700040,
 parentped: {
 male: 700041,
@@ -315,7 +316,7 @@ male: 700041,
 }
 },
 
-{horsename: 'Blandford',
+{name: 'Blandford',
 id: 700041,
 parentped: {
 male: 700042,
@@ -323,7 +324,7 @@ male: 700042,
 }
 },
 
-{horsename: 'Swynford',
+{name: 'Swynford',
 id: 700042,
 parentped: {
 male: 700043,
@@ -331,7 +332,7 @@ male: 700043,
 }
 },
 
-{horsename: 'John o Gaunt',
+{name: 'John o Gaunt',
 id: 700043,
 parentped: {
 male: 700044,
@@ -339,7 +340,7 @@ male: 700044,
 }
 },
 
-{horsename: 'Isinglass',
+{name: 'Isinglass',
 id: 700044,
 parentped: {
 male: 700045,
@@ -347,7 +348,7 @@ male: 700045,
 }
 },
 
-{horsename: 'Isonomy',
+{name: 'Isonomy',
 id: 700045,
 parentped: {
 male: 700046,
@@ -355,7 +356,7 @@ male: 700046,
 }
 },
 
-{horsename: 'Sterling',
+{name: 'Sterling',
 id: 700046
 }
 
@@ -364,7 +365,7 @@ id: 700046
 {gender: broodmare,genderlist: [
 
 //スペちゃん母系
-{horsename: 'キャンペーンガール',
+{name: 'キャンペーンガール',
 id: 300001,
 parentped: {
 male: 0004,
@@ -372,7 +373,7 @@ female: 300002
 }
 },
 
-{horsename: 'レディーシラオキ',
+{name: 'レディーシラオキ',
 id: 300002,
 parentped: {
 //male:セントクレスピン,
@@ -442,6 +443,6 @@ id: 300010
 
 ]}
 
-}
+}}
 
 }});
