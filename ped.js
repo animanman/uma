@@ -1,3 +1,7 @@
+let testapp = new Vue({
+    el: '#test',
+    data: {
+
 horse: {
      stallions: [
 //サンデー父系10
@@ -379,3 +383,5 @@ horse: {
             }
            ]
         }
+
+}});
