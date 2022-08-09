@@ -359,77 +359,89 @@ male: 700046,
 id: 700046
 }
 
-]
+],
 
 broodmares: [
+
 //スペちゃん母系
-           {horsename: 'キャンペーンガール',
-            id: 300001,
-            parentped: {
-              male: 0004,
-              female: 300002
-             }
-            },
-           {horsename: 'レディーシラオキ',
-            id: 300002,
-            parentped: {
-              //male:セントクレスピン,
-              female: 300003
-             }
-            },
-           {horsename: 'ミスアシヤガワ',
-            id: 300003,
-            parentped: {
-              //male:ヒンドスタン,
-              female: 300004
-             }
-            },
-           {horsename: 'シラオキ',
-            id: 300004,
-            parentped: {
-              //male:プリメロ,
-              female: 300005
-             }
-            },
-           {horsename: '第弐スターカツプ',
-            id: 300005,
-            parentped: {
-              //male:ダイオライト,
-              female: 300006
-             }
-            },
-           {horsename: 'スターカツプ',
-            id: 300006,
-            parentped: {
-              //male:シアンモア,
-              female: 300007
-             }
-            },
-           {horsename: 'フロリスト',
-            id: 300007,
-            parentped: {
-              //male:ガロン,
-              female: 300008
-             }
-            },
-           {horsename: '第四フロリースカツプ',
-            id: 300008,
-            parentped: {
-              //male:インタグリオー,
-              female: 300009
-             }
-            },
-           {horsename: 'フロリースカツプ',
-            id: 300009,
-            parentped: {
-              //male:Florizel,
-              female: 300010
-             }
-            },
-           {horsename: 'Stirrup Cup',
-            id: 300010
-            }
-           ]
-        }
+{horsename: 'キャンペーンガール',
+id: 300001,
+parentped: {
+male: 0004,
+female: 300002
+}
+},
+
+{horsename: 'レディーシラオキ',
+id: 300002,
+parentped: {
+//male:セントクレスピン,
+female: 300003
+}
+},
+
+{horsename: 'ミスアシヤガワ',
+id: 300003,
+parentped: {
+//male:ヒンドスタン,
+female: 300004
+}
+},
+
+{horsename: 'シラオキ',
+id: 300004,
+parentped: {
+//male:プリメロ,
+female: 300005
+}
+},
+
+{horsename: '第弐スターカツプ',
+id: 300005,
+parentped: {
+//male:ダイオライト,
+female: 300006
+}
+},
+
+{horsename: 'スターカツプ',
+id: 300006,
+parentped: {
+//male:シアンモア,
+female: 300007
+}
+},
+
+{horsename: 'フロリスト',
+id: 300007,
+parentped: {
+//male:ガロン,
+female: 300008
+}
+},
+
+{horsename: '第四フロリースカツプ',
+id: 300008,
+parentped: {
+//male:インタグリオー,
+female: 300009
+}
+},
+
+{horsename: 'フロリースカツプ',
+id: 300009,
+parentped: {
+//male:Florizel,
+female: 300010
+}
+},
+
+{horsename: 'Stirrup Cup',
+id: 300010
+}
+
+]
+
+}
 
 }});
