@@ -25,11 +25,13 @@
     <main>
     <p>テスト</p>
 
-<ul id="test">
-<li v-for="j" :key="j">
-
+<div id="test">
+<ul>
+<li v-for="horses in horse" :key="horses.horsename">
+{{horses.horsename}}
 </li>
 </ul>
+</div>
 <a href="ped.js">ped.js</a>
     </main>
     <fooder>
